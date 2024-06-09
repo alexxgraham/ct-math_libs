@@ -3,7 +3,7 @@ import { PackageLibraries } from '@ag108/ct-utils/types/main';
 
 import { PackageIndexLink } from '@ag108/ct-utils';
 
-import { AlgebraState, AlgorithmState, ArithmeticState, CalculusState, ChainState, GeometryState, MatrixState } from './state';
+import { AlgebraState, AlgorithmState, ArithmeticState, CalculusState, ChainState, GeometryState, MatrixState } from '~/state';
 
 const libraries: PackageLibraries = [
 	{ name: 'chain', tabState: ChainState },
