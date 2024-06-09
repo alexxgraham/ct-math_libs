@@ -1,5 +1,11 @@
 # @ag108/ct-math_libs
 
+## 1.0.3
+
+### Patch Changes
+
+- 70c8e90: fix: "incorrect '@ag108/ct-utils' import" #2
+
 ## 1.0.2
 
 ### Patch Changes
