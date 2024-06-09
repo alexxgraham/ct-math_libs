@@ -1,5 +1,6 @@
 import { TabDispatchAction } from '@ag108/ct-utils/types/dispatch';
-import { PackageLinks, MathIndexState  } from '@ag108/ct-utils/dist/index.mjs';
+
+import { PackageLinks, MathIndexState  } from '@ag108/ct-utils';
 
 const PKG_NAME = 'math';
 
