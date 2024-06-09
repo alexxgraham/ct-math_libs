@@ -1,7 +1,7 @@
 import { TabDispatchAction } from '@ag108/ct-utils/types/dispatch';
 import { PackageLibraries } from '@ag108/ct-utils/types/main';
 
-import { PackageIndexLink } from '@ag108/ct-utils/dist/index.mjs';
+import { PackageIndexLink } from '@ag108/ct-utils';
 
 import { AlgebraState, AlgorithmState, ArithmeticState, CalculusState, ChainState, GeometryState, MatrixState } from './state';
 
@@ -33,3 +33,5 @@ export const IndexMath = ({setTab}: {setTab: TabDispatchAction}) => {
 		</article>
 	);
 }
+
+export { Chain, Arithmetic, Geometry, Algebra, Calculus, Matrix, Algorithm } from '~/libs'
