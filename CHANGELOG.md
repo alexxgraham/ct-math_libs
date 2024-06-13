@@ -1,5 +1,11 @@
 # @ag108/ct-math_libs
 
+## 1.0.6
+
+### Patch Changes
+
+- 8f62275: added [math] pack ct-utils stylesheets
+
 ## 1.0.5
 
 ### Patch Changes
