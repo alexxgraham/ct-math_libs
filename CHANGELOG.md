@@ -1,5 +1,11 @@
 # @ag108/ct-math_libs
 
+## 1.0.8
+
+### Patch Changes
+
+- de2a86a: update to lts ct-utils
+
 ## 1.0.7
 
 ### Patch Changes
