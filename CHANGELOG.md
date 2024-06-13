@@ -1,5 +1,11 @@
 # @ag108/ct-math_libs
 
+## 1.0.7
+
+### Patch Changes
+
+- 331b6bc: fixed conflicting tailwind classes with IndexMath classes for lts of ct-util classes
+
 ## 1.0.6
 
 ### Patch Changes
