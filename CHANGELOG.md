@@ -1,5 +1,11 @@
 # @ag108/ct-math_libs
 
+## 1.0.9
+
+### Patch Changes
+
+- 5972dff: fixed text->color classes for lts of ct-utils styles
+
 ## 1.0.8
 
 ### Patch Changes
