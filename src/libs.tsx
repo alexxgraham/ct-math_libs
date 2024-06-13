@@ -1,27 +1,27 @@
 import { TabDispatchAction } from '@ag108/ct-utils/types/dispatch';
 
-import { PackageLinks, MathIndexState  } from '@ag108/ct-utils';
+import { PackageLinks, MathIndexState } from '@ag108/ct-utils';
 
 const PKG_NAME = 'math';
 
-export const Chain = ({setTab}:{setTab: TabDispatchAction}) => {
+export const Chain = ({ setTab }: { setTab: TabDispatchAction }) => {
 	return <PackageLinks modules={['and', 'not', 'or', 'xor']} pkgName={PKG_NAME} libName='image' backTab={MathIndexState} setTab={setTab} />;
-}
-export const Arithmetic = ({setTab}:{setTab: TabDispatchAction}) => {
+};
+export const Arithmetic = ({ setTab }: { setTab: TabDispatchAction }) => {
 	return <PackageLinks modules={['basic', 'fraction', 'decimal', 'conversion']} pkgName={PKG_NAME} libName='arithmetic' backTab={MathIndexState} setTab={setTab} />;
 };
-export const Geometry = ({setTab}:{setTab: TabDispatchAction}) =>  {
+export const Geometry = ({ setTab }: { setTab: TabDispatchAction }) => {
 	return <PackageLinks modules={['distance', 'perimeter', 'area', 'volume', 'radius', 'circumference']} pkgName={PKG_NAME} libName='geometry' backTab={MathIndexState} setTab={setTab} />;
 };
-export const Algebra = ({setTab}:{setTab: TabDispatchAction}) =>  {
+export const Algebra = ({ setTab }: { setTab: TabDispatchAction }) => {
 	return <PackageLinks modules={['mean', 'median', 'mode', 'expression', 'equation']} pkgName={PKG_NAME} libName='algebra' backTab={MathIndexState} setTab={setTab} />;
 };
-export const Algorithm = ({setTab}:{setTab: TabDispatchAction}) =>  {
-	return <PackageLinks modules={['']} pkgName={PKG_NAME} libName='algorithm' backTab={MathIndexState} setTab={setTab} />;
+export const Calculus = ({ setTab }: { setTab: TabDispatchAction }) => {
+	return <PackageLinks modules={['linear', 'quadratic', 'logarithmic']} pkgName={PKG_NAME} libName='calculus' backTab={MathIndexState} setTab={setTab} />;
 };
-export const Calculus = ({setTab}:{setTab: TabDispatchAction}) =>  {
-	return <PackageLinks modules={['']} pkgName={PKG_NAME} libName='calculus' backTab={MathIndexState} setTab={setTab} />;
+export const Matrix = ({ setTab }: { setTab: TabDispatchAction }) => {
+	return <PackageLinks modules={['len', 'sum', 'csum', 'prod', 'cprod']} pkgName={PKG_NAME} libName='matrix' backTab={MathIndexState} setTab={setTab} />;
 };
-export const Matrix = ({setTab}:{setTab: TabDispatchAction}) =>  {
-	return <PackageLinks modules={['']} pkgName={PKG_NAME} libName='matrix' backTab={MathIndexState} setTab={setTab} />;
+export const Algorithm = ({ setTab }: { setTab: TabDispatchAction }) => {
+	return <PackageLinks modules={['gcd', 'lcm', 'euclidean', 'recursive']} pkgName={PKG_NAME} libName='algorithm' backTab={MathIndexState} setTab={setTab} />;
 };
